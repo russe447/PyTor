@@ -6,7 +6,7 @@ from tracker_client import get_peers_from_tracker
 from peer_client import perform_peer_handshake, process_peer_messages
 
 if __name__ == "__main__":
-    torrent_file_path = 'lubuntu.iso.torrent' 
+    torrent_file_path = '../PyTorTorrent/lubuntu.iso.torrent' 
 
     # Generate a random 20-byte peer ID for this client
     # Typically starts with client identifier (e.g., '-TR2940-') followed by random bytes
